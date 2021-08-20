@@ -4,3 +4,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+nav>a>img {
+    margin-bottom: .5em;
+}
