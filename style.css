@@ -1,9 +1,58 @@
+.bg-black {
+    background-color: black;
+}
+.bg-my-primary {
+    background-color: #F8E417;
+}
+.bg-my-blue {
+    background-color: #4081b6;
+}
+.text-orange {
+    color: #F88E21;
+}
+.acrylic {
+    background: rgba(255, 255, 255, .5);
+    box-shadow: 0px 0px 5px #ccc;
+    backdrop-filter: blur(5px);
+}
+input, textarea {
+    margin: .25rem auto;
+    padding: .25rem;
+    border: 2px solid #260C18;
+    color: #000000;
+    background: rgba(138, 138, 138, 0.5);
+}
 .hero-img {
     background-image: url(/assets/evil-exes.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+nav>a>h1 {
+    font-size: 20px;
+}
 nav>a>img {
     margin-bottom: .5em;
+}
+.above-card {
+    position: absolute;
+    bottom:28.6em;
+}
+.card-header>i {
+    padding: 0 .25rem;
+    font-size: 1.75rem;
+    color: #e04d75;
+}
+
+
+@media only screen and (max-width:500px) {
+    .hero-img {
+        background-image: url(/assets/door.jpg);
+        background-position: center;
+        background-size: 60rem;
+        background-repeat: no-repeat;
+    }
 }
