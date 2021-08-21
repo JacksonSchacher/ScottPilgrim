@@ -13,7 +13,7 @@
 }
 .acrylic {
     background: rgba(255, 255, 255, .5);
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0px 0px 1px #ccc;
     backdrop-filter: blur(5px);
 }
 input, textarea {
@@ -51,8 +51,12 @@ nav>a>img {
     background-color: #F8E417;
     filter: drop-shadow(0 2px 5px #000);
 }
-h1>object {
-    width: 4.5rem;
+h2>object {
+    width: 2.5rem;
+    padding-right: .25rem;
+}
+.text-my-dark>button {
+    width:fit-content;
 }
 
 @media only screen and (max-width:500px) {
