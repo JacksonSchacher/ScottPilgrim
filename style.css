@@ -1,14 +1,15 @@
+
 .bg-black {
     background-color: black;
 }
 .bg-my-primary {
-    background-color: #F8E417;
+    background-color: #d4813a;
 }
-.bg-my-blue {
-    background-color: #F88E21;
+.bg-my-purple {
+    background-color: #4b334d;
 }
-.text-orange {
-    color: #F88E21;
+.text-my-dark {
+    color: #231e2b;
 }
 .acrylic {
     background: rgba(255, 255, 255, .5);
@@ -49,6 +50,9 @@ nav>a>img {
 .review {
     background-color: #F8E417;
     filter: drop-shadow(0 2px 5px #000);
+}
+h1>object {
+    width: 4.5rem;
 }
 
 @media only screen and (max-width:500px) {
