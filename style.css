@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Urbanist', sans-serif;
+}
 .bg-black {
     background-color: black;
 }
@@ -23,6 +25,13 @@ input, textarea {
     color: #000000;
     background: rgba(138, 138, 138, 0.5);
 }
+input.checkbox {
+    width: 2em;
+    height: 2em;
+}
+input.checkbox:checked {
+    background-color: #d4813a;
+}
 .hero-img {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%), url(/assets/evil-exes.png);
     background-position: center;
@@ -32,15 +41,19 @@ input, textarea {
 h1, h2, h3 {
     font-family: 'Press Start 2P', cursive;
 }
-nav>a>h1 {
-    font-size: 20px;
+.logo {
+    width:2.5em;
+    height: 2.5em;
 }
-nav>a>img {
-    margin-bottom: .5em;
+.logo-text {
+    font-size: large;
+    font-weight: bold;
+    word-spacing: -10px;
+    padding-top: 1rem;
 }
 .above-card {
     position: absolute;
-    bottom:28.6em;
+    bottom:28.1em;
 }
 .card-header>i {
     padding: 0 .25rem;
@@ -48,8 +61,8 @@ nav>a>img {
     color: #F8E417;
 }
 .review {
-    background-color: #F8E417;
-    filter: drop-shadow(0 2px 5px #000);
+    background-color: #d4813a;
+    filter: drop-shadow(0 3px 2px #000);
 }
 h2>object {
     width: 2.5rem;

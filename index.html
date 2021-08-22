@@ -20,18 +20,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="container-fluid">
         <div class="row">
             <!-- navbar sticky-->
-            <nav class="navbar sticky-nav navbar-light bg-my-primary">
-                <a class="col-12 navbar-brand" href="#">
-                    <img class="" src="/assets/sex-bob-omb.png" width="50" height="50" class="d-inline-block align-top"
-                        alt="Sex Bob Omb Logo">
-                    <h1>League of Evil Exes</h1>
-                </a>
+            <nav class="navbar sticky-nav bg-my-primary">
+                <span class="col-12 d-flex align-items-center navbar-brand" href="#">
+                    <img class="logo" src="/assets/sex-bob-omb.png" width="50" height="50"
+                        class="d-inline-block align-top" alt="Sex Bob Omb Logo">
+                    <h1 class="logo-text">League of Evil Exes</h1>
+                </span>
             </nav>
         </div>
     </header>
@@ -49,9 +50,10 @@
                             <input style="width: 60%;" type="tel" id="phone" name="phone" value="PHONE">
                             <input style="width: 30%;" type="tel" id="ext" name="ext" value="EXT."><br>
                             <textarea style="width: 100%;" name="message" rows="10" cols="30">MESSAGE</textarea>
-                            <input type="checkbox" id="agree" name="agree" value="Agreed"><label for="agree">by checking
-                                this box I agree to join the mailing list for the Leauge of Evil Exes</label>
-                            <input type="submit" value="SUBMIT">
+                            <span class="d-flex"><input class="checkbox" type="checkbox" id="agree" name="agree"
+                                    value="Agreed"><label for="agree" class="pl-3">by checking
+                                    this box I agree to join the mailing list for the Leauge of Evil Exes</label></span>
+                            <input class="mt-3" type="submit" value="SUBMIT">
                         </form>
                     </div>
                 </div>
@@ -67,35 +69,35 @@
         <div class="row bg-my-primary">
             <div class="col-lg-7 order-lg-2 my-3">
                 <!-- card spill on desktop *order 1 on mobile (nospill) -->
-                <div class="card bg-secondary spill">
+                <div class="card bg-secondary spill text-light">
                     <div class="card-body">
-                        <span class="mdi mdi-star mdi-36px" aria-hidden="true"></span>
-                        <span class="pl-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit nulla
-                            doloribus obcaecati </span><br>
-                        <span class=" mdi mdi-star mdi-36px" aria-hidden="true"></span>
-                        <span class="pl-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit nulla
-                            doloribus obcaecati </span><br>
-                        <span class=" mdi mdi-star mdi-36px" aria-hidden="true"></span>
-                        <span class="pl-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit nulla
-                            doloribus obcaecati </span><br>
-                        <span class=" mdi mdi-star mdi-36px" aria-hidden="true"></span>
-                        <span class="pl-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit nulla
-                            doloribus obcaecati </span><br>
-                        <span class=" mdi mdi-star mdi-36px" aria-hidden="true"></span>
-                        <span class="pl-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, impedit nulla
-                            doloribus obcaecati </span>
+                        <span class="mdi d-flex mdi-leaf-maple mdi-36px" aria-hidden="true">
+                            <p class="align-self-center pl-1 pt-3">Visit Beautiful Toronto Canada</p>
+                        </span>
+                        <br>
+                        <span class="mdi d-flex mdi-music-circle mdi-36px" aria-hidden="true">
+                            <p class="align-self-center pl-1 pt-1">Background Music For All Your Fights Performed by
+                                Beck</p>
+                        </span><br>
+                        <span class="mdi d-flex mdi-skull mdi-36px" aria-hidden="true">
+                            <p class="align-self-center pl-1 pt-3">Turn Into Coins When You Die</p>
+                        </span><br>
+                        <span class="mdi d-flex mdi-ticket mdi-36px" aria-hidden="true">
+                            <p class="align-self-center pl-1 pt-3">Free Tickets to Gideon Gordon Graves' Club</p>
+                        </span><br>
+                        <span class="mdi d-flex mdi-guitar-pick mdi-36px" aria-hidden="true">
+                            <p class="align-self-center pl-1 pt-3">Be a Cocky Cock and Defeat Scott Pilgrim</p>
+                        </span>
                     </div>
                 </div>
             </div>
             <div class=" col-lg-5 order-lg-1 pl-3 py-4">
                 <!-- order 2 on mobile -->
-                <h3>Benefits of Joining</h3>
-                <h3>& Risks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ducimus optio at et
-                    sunt sequi,
-                    repudiandae quam id reprehenderit veritatis tempore suscipit distinctio modi tenetur
-                    officia aliquid
-                    ipsam natus odit.</p>
+                <h3>"We Hate You, Please Die."</h3>
+                <h3>Crash and the Boys</h3>
+                <p> I don't think I can hit a girl. They're soft. Um, Envy... I read your blog. The De-Veganizing Ray.
+                    Hit him!! Oh, my God. You punched the highlights out of her hair. He punched the highlights out of
+                    her hair!</p>
             </div>
         </div>
         <div class="row bg-my-purple">
@@ -105,14 +107,11 @@
             </div>
             <div class="col-lg-8 d-flex flex-column justify-content-start text-my-dark">
                 <!-- text with button -->
-                    <h2><object type="image/svg+xml" data="/assets/red_cross.svg"></object>RAMONA FLOWERS</h2>
-                    <h2>SOME MORE STUFF ABOUT IT</h2>
-                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rerum dolores,
-                        similique
-                        rem non voluptas aut veniam fuga, officiis officia a distinctio accusamus ut ducimus
-                        facilis
-                        error eaque iure necessitatibus!</h4>
-                    <button class="acrylic my-3 px-3 align-self-end" type="button">MORE</button>
+                <h2><object type="image/svg+xml" data="/assets/red_cross.svg"></object>RAMONA FLOWERS</h2>
+                <h2>WAIT, WHAT? THIS SUCKS!</h2>
+                <h4>On April 4th, 7:30 pm, you partook a plate of chicken parmesan. If I say yes, will you sign for your
+                    damn package? Dude, you could ask. Okay, fine. I had to fight a guy to be with her, okay?</h4>
+                <button class="acrylic my-3 px-3 align-self-end" type="button">MORE</button>
             </div>
         </div>
         <div class="row text-center border-primary border-top bg-secondary py-4">
@@ -123,44 +122,41 @@
                         <i class="mdi mdi-star mdi-36px" aria-hidden="true"></i><i class="mdi mdi-star mdi-36px"
                             aria-hidden="true"></i><i class="mdi mdi-star mdi-36px" aria-hidden="true"></i>
                     </div>
-                    <div class="card-body">
-                        <cite>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illo blanditiis
-                            atque
-                            voluptates quae enim ipsam suscipit facere amet, a facilis minima tempore asperiores
-                            nihil
-                            voluptas ducimus? Hic, cupiditate maxime.</cite>
-                        <muted>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti id sint
-                            veritatis enim
-                            aut in minima ad, quo voluptatum</muted>
+                    <div class="card-body p-4">
+                        <cite>I forgot you guys don't have that in Canada. Don't you just wish this moment could last
+                            forever? So, what can I *censored* get you? Have you seen the grease oozing from that vent
+                            outside? I gotta pee on her!... I mean, I gotta pee. Pee time. Just a phase? The other
+                            L-word. Maybe. Hi. Big fan. It's all blue. That was actually not bad for Scott. </cite><br>
+                        <hr>
+                        <muted>Lucas Lee</muted>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 my-2">
                 <!-- card -->
                 <div class="card review">
-                    <div class="card-body">
-                        <cite>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illo blanditiis
-                            atque
-                            voluptates quae enim ipsam suscipit facere amet, a facilis minima tempore asperiores
-                            nihil
-                            voluptas ducimus? Hic, cupiditate maxime.</cite>
-                        <muted>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti id sint
-                            veritatis enim
-                            aut in minima ad, quo voluptatum</muted>
+                    <div class="card-body p-4">
+                        <cite>Hey, pal! I just wanna say I feel terrible about earlier. I don't want any hard feelings,
+                            so I figured, why not be the bigger man, and just give you a call. How are you doing that
+                            with your mouth? It's over Tamara, seriously! He's an idiot and a loser and... and he's a
+                            loser and he's an idiot! The girl from earlier? It is I, Matthew Patel. Consider our
+                            fight... BEGUN! </cite><br>
+                        <hr>
+                        <muted>Mathew Patel</muted>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 order-3 my-2">
                 <div class="card review">
-                    <div class="card-body">
-                        <cite>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi illo blanditiis
-                            atque
-                            voluptates quae enim ipsam suscipit facere amet, a facilis minima tempore asperiores
-                            nihil
-                            voluptas ducimus? Hic, cupiditate maxime.</cite>
-                        <muted>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti id sint
-                            veritatis enim
-                            aut in minima ad, quo voluptatum</muted>
+                    <div class="card-body p-4">
+                        <cite>Not to her face. Was he swinging a huge samurai sword at your neck? Excuse me, through a
+                            streetcar at your neck? We don't use the "E" word in this house. I used to know a guy who
+                            could do that. He said it wasn't that great. We all have baggage. Bald Vegan Policeman: Is
+                            it? Chicken isn't vegan? It's not dorky! And I'm scared! Why are you psychic? Dude, now I'm
+                            totally reading it. I forgot you guys don't have that in Canada. Look, I know Todd was bad
+                            news</cite><br>
+                        <hr>
+                        <muted>Todd Ingram</muted>
                     </div>
                 </div>
                 <!-- card -->
@@ -170,14 +166,19 @@
     </main>
     <footer class="container-fluid">
         <div class="row text-center">
-            <div class="col bg-my-primary">
+            <div class="col bg-my-primary pt-3">
                 <h1>SOMETHING. SOMETHING. SOMETHING.</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore illum iure, inventore eius obcaecati
-                    reprehenderit numquam! Reiciendis vero dolore sapiente libero,</p>
+                <p>Wait! We're fighting over Ramona? I think I'm not getting something. He had snot in his nose? But
+                    he's famous. Go to the other end of the book and start at page 1. I think you mentioned she was fat.
+                </p>
                 <!-- footer -->
-                <div class="row bg-secondary">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem accusamus architecto nam aut
-                        reiciendis commodi modi ratione iure vitae a</p>
+                <div class="row bg-secondary pt-2">
+                    <p>Well, it was nice to meet you and tell your gay friends I will see them later. </p>
+                    <hr><span class="d-flex pb-2 justify-content-evenly">
+                        <i class="mdi mdi-google-downasaur mdi-36px" aria-hidden="true"></i>
+                        <i class="mdi mdi-glass-mug mdi-36px" aria-hidden="true"></i>
+                        <i class="mdi mdi-google-controller mdi-36px" aria-hidden="true"></i>
+                    </span>
                 </div>
             </div>
         </div>
