@@ -1,81 +1,108 @@
 body {
     font-family: 'Urbanist', sans-serif;
 }
+
 .bg-black {
     background-color: black;
 }
+
 .bg-my-primary {
     background-color: #d4813a;
 }
+
 .bg-my-purple {
     background-color: #4b334d;
 }
+
 .text-my-dark {
-    color: #231e2b;
+    color: #ccc;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .acrylic {
     background: rgba(255, 255, 255, .5);
     box-shadow: 0px 0px 1px #ccc;
     backdrop-filter: blur(5px);
 }
+
 .overlay-text {
     border-left: 10px solid #d4813a;
     padding-left: 30px;
     color: white;
     backdrop-filter: blur(5px);
 }
-input, textarea {
+
+input,
+textarea {
     margin: .25rem auto;
     padding: .25rem;
     border: 2px solid #260C18;
     color: #000000;
     background: rgba(138, 138, 138, 0.5);
 }
+
 input.checkbox {
     width: 2em;
     height: 2em;
 }
-input.checkbox:checked ~ .checkmark {
+
+input.checkbox:checked~.checkmark {
     background-color: #d4813a;
 }
+
 .hero-img {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%), url(assets/evil-exes.png);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 75%), url(assets/evil-exes.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Press Start 2P', cursive;
 }
+
 .logo {
-    width:2.5em;
+    width: 2.5em;
     height: 2.5em;
 }
+
 .logo-text {
     font-size: large;
     font-weight: bold;
     word-spacing: -10px;
     padding-top: 1rem;
 }
+
 .above-card {
     position: absolute;
-    bottom:28.1em;
+    bottom: 28.1em;
 }
+
 .card-header>i {
     padding: 0 .25rem;
     font-size: 1.75rem;
     color: #F8E417;
 }
+
 .review {
     background-color: #d4813a;
     filter: drop-shadow(0 3px 2px #000);
 }
+
 h2>object {
     width: 2.5rem;
     padding-right: .25rem;
 }
+
 .text-my-dark>button {
-    width:fit-content;
+    width: fit-content;
 }
 
 @media only screen and (max-width:500px) {
@@ -91,13 +118,13 @@ h2>object {
     .spill {
         position: absolute;
         top: 49rem;
-        width:49rem;
+        width: 49rem;
     }
     .text-my-dark {
         margin-top: 15rem;
     }
-
 }
+
 @media only screen and (min-width: 1441px) {
     .text-my-dark {
         margin-top: 18rem;
