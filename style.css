@@ -98,3 +98,8 @@ h2>object {
     }
 
 }
+@media only screen and (min-width: 1441px) {
+    .text-my-dark {
+        margin-top: 18rem;
+    }
+}
