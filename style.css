@@ -39,7 +39,7 @@ input.checkbox:checked ~ .checkmark {
     background-color: #d4813a;
 }
 .hero-img {
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%), url(/assets/evil-exes.png);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%), url(assets/evil-exes.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ h2>object {
 
 @media only screen and (max-width:500px) {
     .hero-img {
-        background-image: url(/assets/door.jpg);
+        background-image: url(assets/door.jpg);
         background-position: center;
         background-size: 60rem;
         background-repeat: no-repeat;
